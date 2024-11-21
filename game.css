@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(220, 125, 125);
+    font-size: 50px;
+    color: brown;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.616);
+}  
+
+body{
+    background-color: rgb(191, 172, 117);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#boxcont{
+    margin-top: 50px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 36%;
+    gap: 10px;
+  
+}
+
+#newbtn{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 1);
+    color: bisque;
+    margin-left: 47%;
+    margin-top: 14px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.616);
+}
+
+#resbtn{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 1);
+    color: bisque;
+    margin-left: 47%;
+    margin-top: 24px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.616);
+}
+
+.hide{
+    display: none;
+}
+
+#winmessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    height: 60vmin;
+    
+}
+#score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    
+    
+}
